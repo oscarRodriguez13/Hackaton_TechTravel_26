@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/soloImagen"
+        android:layout_width="match_parent"
+        android:layout_height="362dp"
+        app:srcCompat="@drawable/times_square_new_york"
+        tools:ignore="ContentDescription,MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="40dp"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="425dp"
+        android:orientation="vertical"
+
+
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/granNombre"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+
+            android:layout_marginHorizontal="20dp"
+
+            android:layout_marginVertical="20dp"
+            android:text="nombre: Time Square"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="91dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <TextView
+            android:id="@+id/granDescripcio"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="20dp"
+            android:gravity="center_vertical"
+            android:text="La descripcion: Es una calle de ocho cuadras de largo en el distrito financiero del Lower Manhattan en Nueva York."
+            android:textAlignment="center"
+            tools:ignore="MissingConstraints,RtlCompat"
+            tools:layout_editor_absoluteX="91dp"
+            tools:layout_editor_absoluteY="71dp" />
+
+        <TextView
+            android:id="@+id/granPuntuacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="20dp"
+            android:text="puntuacion:9"
+            android:textAlignment="center" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/botonVuelta"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:text="Volver"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/botonForo"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:text="Foro"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/botonPerfil"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:text="Perfil"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/MapBoton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mapa" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</LinearLayout>
